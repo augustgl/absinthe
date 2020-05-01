@@ -10,7 +10,7 @@ Make a pull request, or download as a zip
 
 ### Prerequisites
 
-Visual Studio 2017 is required. This application has not been tested in x64. 
+Visual Studio 2017 is required. This application has been tested in x64 
 
 ## Built With
 
