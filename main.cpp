@@ -59,10 +59,7 @@ INSTRUCTIONS
 #include <winternl.h> // lmao
 #include <WinInet.h>
 
-#include <time.h> // for date and time
 #include <stdio.h> // printf
-
-#define DATE_TO_EXPLODE "2019-12-31" // change to date to explode for logic bomb: christmas
 
 #pragma comment(lib, "wininet.lib")
 
