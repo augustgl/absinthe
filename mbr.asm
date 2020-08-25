@@ -40,6 +40,6 @@ clear_screen:
         int 0x10
         ret
 
-msg:            db        "have fun dissasembling this malware on your bricked computers",13,10,"lmao",13,10, "fuck trump", 0
+msg:            db        "absinthe",13,10,"lmao", 0
 times 510 - ($-$$) db 0
 dw        0xaa55
