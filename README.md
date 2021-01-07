@@ -2,7 +2,7 @@
 
 MBR virus, with infect count panel. 
 
-###1/7/2021
+##1/7/2021
 
 It's been a little under a year since I made this repo. I had known the whole "overwrite the MBR with 512 bytes of 0" trick for a while, but it's kinda lame to just brick the computer. 
 
