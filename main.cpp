@@ -4,8 +4,6 @@ made by augboi incorporated
 established 2002
 based out of hoboken, NJ
 
-shoot me an email! augustgl@protonmail.ch
-
 */
 
 /*
