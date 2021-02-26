@@ -21,6 +21,18 @@ hugs are worth more than handshakes
 
 EDUCATIONAL PURPOSES ONLY! I AM NOT RESPONSIBLE FOR WHAT YOU DO WITH THIS
 
+## Panel setup guide
+
+First setup a web server with PHP. I use apache. I have not tested with nginx, or XAMPP.  
+
+then move the panel files to the root folder of your web server (with apache it's /var/www/html/ by default)
+
+create a new file called "visitors.txt" in the same directory as the panel files and make sure to leave it empty. You can do this on linux with the command `touch visitors.txt`
+
+finally, run the command `chmod 777 *` in the folder with the panel files. 
+
+then, open a browser and type your server's IP. 
+
 ## Getting Started
 
 Make a pull request, or download as a zip
