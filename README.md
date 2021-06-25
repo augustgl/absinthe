@@ -11,7 +11,7 @@ So I did more research... and found some code to overwrite it with a custom mess
 Originally, you ran the program, it wrote our own code to the master boot record, and the user had to restart for it to take affect. That's lame.
 so I added these features
 
-1. Forced reboot via BSoD (force a Blue Screen of Death forcing the computer to crash and restart, automatically running our code that shows the message)
+1. Forced reboot via BSoD (trigger a Blue Screen of Death forcing the computer to crash and restart, automatically running our code that shows the message)
 2. Sends an HTTP GET request to our panel, to log a successful infect. 
 3. Panel, for viewing the infect count, and IPs of the infected bots. 
 
